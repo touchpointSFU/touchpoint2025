@@ -6,8 +6,9 @@ import Footer from "@/components/Footer";
 
 export const getServerSideProps = getPageColorSchemeProps("real-blue");
 
+export const Schedule = () => {
   return (
-    <>
+    <Fragment>
       <div className="px-body pt-nav-height min-h-screen pb-24">
         <div
           className="grid text-big-sans gap-x-4 gap-y-[1em] mt-[1em]"
@@ -32,13 +33,10 @@ export const getServerSideProps = getPageColorSchemeProps("real-blue");
             </Fragment>
           ))}
         </div>
-
-        
+      </div>
       <Footer quote="This is, finally, a time to come together, and celebrate, as a community." />
-    </>
+    </Fragment>
   );
 };
-
-
 
 export default Schedule;
