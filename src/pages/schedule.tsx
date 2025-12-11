@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 export const getServerSideProps = getPageColorSchemeProps("real-blue");
 
 export const Schedule = () => {
+  useDocumentTitle("Touchpoint 2025");
   return (
     <Fragment>
       <div className="px-body pt-nav-height min-h-screen pb-24">
