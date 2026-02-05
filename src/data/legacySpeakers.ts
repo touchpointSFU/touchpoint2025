@@ -7,20 +7,26 @@ const LEGACY_SPEAKERS = [
       { speakers: "Caterina Sanders", company: "Habanero" },
       { speakers: "Rock Leung", company: "SAP" },
       { speakers: "Marie-Claude Lavoie, Richard Z'Graggen", company: "LVL" },
-      { speakers: "Ryan Betts", company: "Adobe" }
-    ]
+      { speakers: "Ryan Betts", company: "Adobe" },
+    ],
   },
   {
     year: 2013,
     talks: [
       { speakers: "Matt Conway", company: "frog design" },
-      { speakers: "Ric Ewing, Alaa Mendili, Tai Hubbert", company: "Digital Kitchen" },
+      {
+        speakers: "Ric Ewing, Alaa Mendili, Tai Hubbert",
+        company: "Digital Kitchen",
+      },
       { speakers: "Alex Riegelman", company: "Crispin, Porter + Bogusky" },
       { speakers: "Kim Laama, Michael Smith", company: "AKQA" },
       { speakers: "Don Chisholm", company: "Dossier" },
       { speakers: "Connor Lowe", company: "SAP" },
-      { speakers: "Tracey Shaw, Mami Shimada, Ben Ng, Adam Crandall", company: "Habanero" }
-    ]
+      {
+        speakers: "Tracey Shaw, Mami Shimada, Ben Ng, Adam Crandall",
+        company: "Habanero",
+      },
+    ],
   },
   {
     year: 2014,
@@ -31,8 +37,8 @@ const LEGACY_SPEAKERS = [
       { speakers: "Michael Farrell", company: "Twitter" },
       { speakers: "Azmina Karimi", company: "Crispin, Porter + Bogusky" },
       { speakers: "Alex Beim", company: "Tangible Interaction" },
-      { speakers: "Amy Ngai", company: "AxiomZen" }
-    ]
+      { speakers: "Amy Ngai", company: "AxiomZen" },
+    ],
   },
   {
     year: 2015,
@@ -48,8 +54,8 @@ const LEGACY_SPEAKERS = [
       { speakers: "Adam Wilson, Tamasin Reno", company: "Vision Critical" },
       { speakers: "Jeremy Bowen, Holger Kuehnle", company: "Microsoft" },
       { speakers: "Jon Bell", company: "Twitter" },
-      { speakers: "Ryan Opina", company: "Engine Digital" }
-    ]
+      { speakers: "Ryan Opina", company: "Engine Digital" },
+    ],
   },
   {
     year: 2016,
@@ -65,8 +71,8 @@ const LEGACY_SPEAKERS = [
       { speakers: "Matt Walsh", company: "Green Stone" },
       { speakers: "Simon Kwok", company: "Pivotal Labs" },
       { speakers: "Stephen Clements", company: "Junior" },
-      { speakers: "Kevin Wick", company: "Frog Design" }
-    ]
+      { speakers: "Kevin Wick", company: "Frog Design" },
+    ],
   },
   {
     year: 2017,
@@ -81,8 +87,8 @@ const LEGACY_SPEAKERS = [
       { speakers: "Christine Poh, Sean Cardiff", company: "Green Stone" },
       { speakers: "Mallory O'Connor", company: "Habanero" },
       { speakers: "Liam Thurston", company: "TWG" },
-      { speakers: "Amy Ngai", company: "Axiom Zen" }
-    ]
+      { speakers: "Amy Ngai", company: "Axiom Zen" },
+    ],
   },
   {
     year: 2018,
@@ -97,8 +103,8 @@ const LEGACY_SPEAKERS = [
       { speakers: "Sheryl Cababa", company: "Artefact" },
       { speakers: "Mallory O'Connor", company: "Habanero" },
       { speakers: "Scott Strathern", company: "Engine Digital" },
-      { speakers: "Ariana De Ryss", company: "Green Stone" }
-    ]
+      { speakers: "Ariana De Ryss", company: "Green Stone" },
+    ],
   },
   {
     year: 2019,
@@ -110,8 +116,8 @@ const LEGACY_SPEAKERS = [
       { speakers: "Dan Nanasi", company: "Engine Digital" },
       { speakers: "Sheila Mackenzie", company: "Spatial Design" },
       { speakers: "Terrence Ma", company: "R/GA" },
-      { speakers: "Michael Ellsworth", company: "Civilization" }
-    ]
+      { speakers: "Michael Ellsworth", company: "Civilization" },
+    ],
   },
   {
     year: 2020,
@@ -121,9 +127,15 @@ const LEGACY_SPEAKERS = [
       { speakers: "Peter Pimentel", company: "Engine Digital" },
       { speakers: "Guramrit Singh, Ed Prinsen", company: "Telus Digital" },
       { speakers: "Amy Ngai, Wesley Yun", company: "Asana" },
-      { speakers: "Edwy Woo, Elan Asselstime, Hugh Knapp", company: "All Purpose" },
-      { speakers: "Will Odom, Jordan Eshpeter, Armi Behzad", company: "Everyday Design Studio" }
-    ]
+      {
+        speakers: "Edwy Woo, Elan Asselstime, Hugh Knapp",
+        company: "All Purpose",
+      },
+      {
+        speakers: "Will Odom, Jordan Eshpeter, Armi Behzad",
+        company: "Everyday Design Studio",
+      },
+    ],
   },
   {
     year: 2022,
@@ -136,8 +148,8 @@ const LEGACY_SPEAKERS = [
       { speakers: "Leah (Maestri) Evernden", company: "Microsoft" },
       { speakers: "Salathiel Wells", company: "SAP" },
       { speakers: "Sumeet Anand", company: "Google" },
-      { speakers: "Dale Evernden", company: "Rival Technologies" }
-    ]
+      { speakers: "Dale Evernden", company: "Rival Technologies" },
+    ],
   },
   {
     year: 2023,
@@ -149,8 +161,8 @@ const LEGACY_SPEAKERS = [
       { speakers: "Samantha Slinn", company: "Metalab" },
       { speakers: "Esther Park", company: "Sweetgreen" },
       { speakers: "Josh Chisholm", company: "Reddit" },
-      { speakers: "Dominic Wong", company: "Invoke Digital" }
-    ]
+      { speakers: "Dominic Wong", company: "Invoke Digital" },
+    ],
   },
   {
     year: 2024,
@@ -162,9 +174,21 @@ const LEGACY_SPEAKERS = [
       { speakers: "Mark Strathern", company: "Archivio Boggeri" },
       { speakers: "Christopher Elawa", company: "Meta" },
       { speakers: "Armina Foroughi", company: "Google" },
-      { speakers: "Matt Walsh", company: "Green Stone" }
-    ]
-  }
+      { speakers: "Matt Walsh", company: "Green Stone" },
+    ],
+  },
+  {
+    year: 2025,
+    talks: [
+      { speakers: "Ronna Chisholm & Tyler Barlow", company: "Dossier" },
+      { speakers: "Eva Deckers", company: "Catharina Hospital Eindhoven" },
+      { speakers: "Caterina Sanders", company: "Habanero" },
+      { speakers: "Andrew Nip", company: "Frog Design" },
+      { speakers: "Zia Somjee & Kristian Hay", company: "Zak" },
+      { speakers: "Christine Poh", company: "Invoke Digital" },
+      { speakers: "Connor Lowe", company: "Invisible Dynamics" },
+    ],
+  },
 ];
 
 export default LEGACY_SPEAKERS;
