@@ -11,7 +11,7 @@ export const PillNav = ({
   isVisible: boolean;
 }) => {
   return (
-    <div className="fixed bottom-0 left-0 right-0 px-body mx-auto mb-10 z-20 flex justify-center flex-wrap max-w-[600px]">
+    <div className="fixed bottom-0 left-0 right-0 px-body mx-auto mb-10 z-20 flex justify-center flex-wrap max-w-[480px]">
       <AnimatePresence>{isVisible && <>{children}</>}</AnimatePresence>
     </div>
   );
@@ -85,7 +85,7 @@ export const PillNavItem = ({
       className={cn(
         `text-smol-sans inline-flex items-center justify-center px-4 pt-1.5 pb-0.5 rounded-full w-fit `,
         outline ? outlineStyle : redStyle,
-        href === "/" ? "cursor-default" : "cursor-pointer"
+        href === "/" ? "cursor-default" : "cursor-pointer",
       )}
     >
       {children}
